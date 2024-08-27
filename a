@@ -1,0 +1,7 @@
+echo "# Covid-data-" >> README.md
+init
+add README.md
+commit -m "first commit"
+branch -M main
+remote add origin https://github.com/danieleiji/Covid-data-.git
+ push -u origin main
